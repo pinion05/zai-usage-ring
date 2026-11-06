@@ -1,0 +1,21 @@
+# @local/zai-usage-ring bundle patch: mounts the Z.AI coding-plan usage
+# ring widget into the profile.
+#
+# The widget needs no config by default. It auto-discovers the key:
+#   ZAI_CODING_CN_API_KEY -> open.bigmodel.cn  (GLM Coding Plan, China site)
+#   ZAI_API_KEY           -> api.z.ai          (Z.AI GLM Coding, global site)
+# resolved through the Harness credential service ($DSH_HOME/.credentials.yaml
+# or environment), whichever is present (global wins when both exist).
+#
+# Optional config:
+#   site: auto | global | cn     # force the site instead of auto-detection
+#   credential: ZAI_API_KEY      # explicit credential ref override
+#   apiKey: <literal key>        # literal key override (avoid; prefer a ref)
+#   timeoutMs: 15000             # upstream request timeout
+#   refreshMs: 60000             # widget auto-refresh interval (client reads
+#                                 # this value from the host response)
+
+- insert:
+    - id: zai-usage-ring
+      name: '@local/zai-usage-ring'
+      config: {}

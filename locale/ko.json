@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Z.AI 코딩 플랜 사용량 링",
+    "description": "채팅 입력창(모델 선택 버튼 좌측)과 사이드바 패널에서 GLM 코딩 플랜의 사용량(5시간·주간·MCP 창)과 리셋 시간을 원형 게이지로 표시합니다. ZAI_API_KEY / ZAI_CODING_CN_API_KEY를 읽습니다."
+  }
+}

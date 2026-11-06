@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Z.AI 编码套餐用量环",
+    "description": "在输入框（模型选择器左侧）与侧边栏面板中以环形仪表显示 GLM 编码套餐用量（5 小时 / 每周 / MCP 窗口）与重置倒计时。读取 ZAI_API_KEY / ZAI_CODING_CN_API_KEY。"
+  }
+}

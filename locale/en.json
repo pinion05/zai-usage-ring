@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Z.AI Coding Plan Usage Rings",
+    "description": "A ring gauge beside the composer's model selector plus a sidebar panel page showing GLM Coding Plan usage (5-hour, weekly, and MCP windows) with reset countdowns. Reads ZAI_API_KEY / ZAI_CODING_CN_API_KEY."
+  }
+}
