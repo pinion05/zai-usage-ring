@@ -3,6 +3,8 @@
 Z.AI / GLM Coding Plan 사용량을 **원형 게이지(도넛 링)**로 표시하는
 DeepSeek Harness(DSH) 웹 UI 플러그인입니다.
 
+![사용량 위젯 데모 — 캡슐 드래그, 카드 펼침, 카드째 드래그](docs/demo.gif)
+
 두 개의 네이티브 자리에 표시됩니다:
 
 1. **채팅 입력창 툴바** (`conversation.input.left`) — 모델 선택 버튼
